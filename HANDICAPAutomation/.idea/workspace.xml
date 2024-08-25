@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c4b3ad-f1b0-4abe-a439-4cf90fdefee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/HOD_approval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/country_finance_manager_approval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/country_hr_manager_approval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/recruitment_request_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_HANDICAP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/fixed_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobModule/job_advertisement_candidate_requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobModule/job_advertisement_more_job_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobModule/job_advertisement_primary_job_information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/HOD_approval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecruitmentRequestModule/Pages/HOD_approval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/country_finance_manager_approval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecruitmentRequestModule/Pages/country_finance_manager_approval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/country_hr_manager_approval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecruitmentRequestModule/Pages/country_hr_manager_approval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecruitmentRequestModule/Pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/recruitment_request_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecruitmentRequestModule/Pages/recruitment_request_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_HANDICAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_HANDICAP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2kwslAYW3tseCqXPrcPC7aa0nOb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,16 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_HANDICAP.test_handicap.executor": "Run",
-    "Python tests.Python tests for test_HANDICAP.test_handicap_login.executor": "Run",
-    "Python tests.Python tests in test_HANDICAP.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_HANDICAP.test_handicap.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_HANDICAP.test_handicap_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_HANDICAP.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abu.arefin\Desktop\git\HandicapAutomation\HANDICAPAutomation\RecruitmentRequestModule" />
+      <recent name="C:\Users\abu.arefin\Desktop\git\HandicapAutomation\HANDICAPAutomation\JobModule" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_HANDICAP.test_handicap">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="HANDICAPAutomation" />

@@ -1,10 +1,14 @@
 from selenium.webdriver.common.by import By
 import time
+from Data.fixed_data import FixedData
+
+fixed_data = FixedData()
+recruitment_request_id_xpath = fixed_data.recruitment_request_hod_country_finance_hr_manager_edit_button_xpath
 
 class CountryFinanceManagerApproval:
     def __init__(self, edge_driver_main):
         self.edge_driver_country = edge_driver_main
-        self.country_finance_manager_approval_edit = (By.XPATH, '//*[@id="12"]/td[7]/a/i') #change the 'id' sequencially before every run
+        self.country_finance_manager_approval_edit = (By.XPATH, recruitment_request_id_xpath)
         self.i_agree_checkbox = (By.XPATH, '//*[@id="cfm_status"]')
         self.submit_button = (By.XPATH, '//*[@id="right-panel"]/div[1]/div/div/div[3]/div/div/div/div[2]/form/div[3]/div[2]/button')
 

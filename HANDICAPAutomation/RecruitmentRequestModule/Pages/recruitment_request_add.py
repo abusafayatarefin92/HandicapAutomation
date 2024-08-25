@@ -31,9 +31,9 @@ class RecruitmentRequestAdd:
         self.edge_driver_handicap.find_element(*self.recruitment_request_click).click()
         time.sleep(2)
         self.edge_driver_handicap.find_element(*self.hiring_manager_click).click()
-        time.sleep(2)
+
+    def click_add_new_button(self):
         self.edge_driver_handicap.find_element(*self.recruitment_request_add_button).click()
-        time.sleep(2)
 
     def select_date(self):
         self.edge_driver_handicap.find_element(*self.job_starting_date).click()
