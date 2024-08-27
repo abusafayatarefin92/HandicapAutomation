@@ -1,3 +1,4 @@
 {
-  "test_HANDICAP.py": true
+  "test_HANDICAP.py": true,
+  "test_HANDICAP.py::test_handicap": true
 }
