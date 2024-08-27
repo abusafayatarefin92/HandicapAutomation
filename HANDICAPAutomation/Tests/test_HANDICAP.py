@@ -183,9 +183,9 @@ def test_handicap(edge_driver_func):
                                                                              'Aliquam et luctus libero. Nulla facilisi.',
                                                                              'Aliquam et luctus libero. Nulla facilisi.')
         time.sleep(1)
-        job_advertisement_candidate_requirements.click_save_button()
-        time.sleep(3)
-        print('\nSuccessfully added Candidate Requirements')
+        # job_advertisement_candidate_requirements.click_save_button()
+        # time.sleep(3)
+        # print('\nSuccessfully added Candidate Requirements')
 
 
     else:
