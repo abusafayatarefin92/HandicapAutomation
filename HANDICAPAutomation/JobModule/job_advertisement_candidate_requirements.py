@@ -27,9 +27,7 @@ class JobAdvertisementCandidateRequirements:
                                     educational_qualification,
                                     training_or_trade_courses,
                                     profesional_certification,
-                                    additional_requirements,
-                                    minimum_age,
-                                    maximum_age):
+                                    additional_requirements):
         self.edge_driver_handicap.find_element(*self.educational_qualification_text).send_keys(educational_qualification)
         time.sleep(1)
         self.edge_driver_handicap.find_element(*self.training_or_trade_courses_text).send_keys(training_or_trade_courses)
@@ -41,10 +39,6 @@ class JobAdvertisementCandidateRequirements:
         self.edge_driver_handicap.find_element(*self.additional_requirements_text).send_keys(additional_requirements)
         time.sleep(1)
         self.edge_driver_handicap.switch_to.default_content()
-        time.sleep(1)
-        self.edge_driver_handicap.find_element(*self.minimum_age_text).send_keys(minimum_age)
-        time.sleep(1)
-        self.edge_driver_handicap.find_element(*self.maximum_age_text).send_keys(maximum_age)
 
     def select_all_dropdown_fields(self,
                                    area_of_expertise,
@@ -53,7 +47,7 @@ class JobAdvertisementCandidateRequirements:
         area_of_expertise_name = Select(area_of_expertise_value)
         area_of_expertise_name.select_by_visible_text(area_of_expertise)
         time.sleep(1)
-        skills_value = self.edge_driver_handicap.find_element(*self.area_of_expertise_select)
+        skills_value = self.edge_driver_handicap.find_element(*self.skills_select)
         skills_name = Select(skills_value)
         skills_name.select_by_visible_text(skills)
 

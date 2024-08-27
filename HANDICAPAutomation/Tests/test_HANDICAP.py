@@ -174,13 +174,11 @@ def test_handicap(edge_driver_func):
         job_advertisement_candidate_requirements.click_candidate_requirements_tab()
         time.sleep(2)
         job_advertisement_candidate_requirements.select_all_dropdown_fields('Business Analysis',
-                                                                            'Achieving Goals ')
+                                                                            'Achieving Goals')
         time.sleep(1)
         job_advertisement_candidate_requirements.click_all_options_checkboxes()
         time.sleep(1)
         job_advertisement_candidate_requirements.insert_all_text_fields_data('Aliquam et luctus libero. Nulla facilisi.',
-                                                                             'Aliquam et luctus libero. Nulla facilisi.',
-                                                                             'Aliquam et luctus libero. Nulla facilisi.',
                                                                              'Aliquam et luctus libero. Nulla facilisi.',
                                                                              'Aliquam et luctus libero. Nulla facilisi.',
                                                                              'Aliquam et luctus libero. Nulla facilisi.')
