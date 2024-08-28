@@ -18,7 +18,7 @@ class JobAdvertisementCandidateRequirements:
         self.no_experience_click = (By.XPATH, '//*[@id="is_experience_required1"]')
         self.freshers_encouragement_click = (By.XPATH, '//*[@id="is_fresher_apply"]')
         self.both_gender_select = (By.XPATH, '//*[@id="Both"]')
-        self.save_button = (By.XPATH, '//*[@id="tabs-3"]/form/div[4]/button[1]')
+        self.save_button = (By.XPATH, '(//i[@class=\'fa fa-save\'])[5]')
 
     def click_candidate_requirements_tab(self):
         self.edge_driver_handicap.find_element(*self.candidate_requirements_tab).click()
@@ -59,4 +59,4 @@ class JobAdvertisementCandidateRequirements:
         self.edge_driver_handicap.find_element(*self.both_gender_select).click()
 
     def click_save_button(self):
-        self.edge_driver_handicap(*self.save_button).click()
+        self.edge_driver_handicap.find_element(*self.save_button).click()
