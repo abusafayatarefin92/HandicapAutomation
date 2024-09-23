@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c4b3ad-f1b0-4abe-a439-4cf90fdefee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JobModule/job_advertisement_criteria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobModule/job_restriction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/fixed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/fixed_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobModule/job_advertisement_candidate_requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobModule/job_advertisement_candidate_requirements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_HANDICAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_HANDICAP.py" afterDir="false" />
-    </list>
+    <list default="true" id="d2c4b3ad-f1b0-4abe-a439-4cf90fdefee0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_HANDICAP.test_handicap.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_HANDICAP.test_handicap_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_HANDICAP.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/git/HandicapAutomation/HANDICAPAutomation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_HANDICAP.test_handicap.executor": "Run",
+    "Python tests.Python tests for test_HANDICAP.test_handicap_login.executor": "Run",
+    "Python tests.Python tests in test_HANDICAP.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/abu.arefin/Desktop/git/HandicapAutomation/HANDICAPAutomation",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\abu.arefin\Desktop\git\HandicapAutomation\HANDICAPAutomation\RecruitmentRequestModule" />
@@ -133,7 +127,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
